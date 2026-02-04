@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard – FlyNext IELTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="admin-body">
+
+  <div class="admin-login" id="adminLogin">
+    <h2>Admin Login</h2>
+    <input type="text" id="adminUser" placeholder="Username" />
+    <input type="password" id="adminPass" placeholder="Password" />
+    <button onclick="adminLogin()">Login</button>
+    <p id="adminError" class="error"></p>
+  </div>
+
+  <div class="admin-dashboard hidden" id="adminDashboard">
+    <h2>🏆 FlyNext IELTS – Admin Dashboard</h2>
+
+    <table id="scoreTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Score</th>
+          <th>Time Used</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <footer>
+    © FlyNext International 2026 | Developed by SHAYEKH
+  </footer>
+
+  <script src="admin.js"></script>
+</body>
+</html>
