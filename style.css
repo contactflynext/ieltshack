@@ -98,3 +98,28 @@ footer {
 .hidden {
   display: none;
 }
+.admin-container {
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #020617;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #0f172a;
+  color: #38bdf8;
+}
+
+tr:nth-child(even) {
+  background: #020617;
+}
+
